@@ -16,13 +16,7 @@ const GameOverlay = ({ onRestart, board }) => {
     );
   }
   return null; 
-//   <div className="gameOver" onClick={onRestart}>
-//   <img
-//     src={tryAgainLogo}
-//     alt="Try again"
-//     style={{ width: "100%", height: "100%", cursor: "pointer" }}
-//   />
-// </div>
+
 };
 
 export default GameOverlay;

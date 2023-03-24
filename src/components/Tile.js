@@ -3,6 +3,8 @@ import React from "react";
 const Tile = ({ tile, id }) => {
   let classArray = ["tile"];
   classArray.push("tile" + tile.value);
+
+
   if (!tile.mergedInto) {
     classArray.push(`position_${tile.row}_${tile.column}`);
   }
